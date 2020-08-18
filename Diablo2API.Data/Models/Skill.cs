@@ -7,6 +7,8 @@ public class Skill
     public SkillTree SkillTree { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
+    public string PassiveEffect { get; set; }
+    public int RequiredLevel { get; set; }
     public SkillTraitsByLevel SkillTraits { get; set; }
     public List<SynergyBonus> SynergyBonuses { get; set; }
     public List<PrerequisiteSkill> PrerequisiteSkills { get; set; }
